@@ -75,12 +75,3 @@ npx prisma db push --force-reset
 ```
 npx prisma db seed
 ```
-### 立ち上げ
-```
-yarn start
-```
-
-### 立ち上げ
-```
-yarn start
-```
