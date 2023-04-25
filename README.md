@@ -38,14 +38,11 @@ $ yarn add -D @types/express @types/cookie-parser @types/csurf @types/passport-j
 ```bash
 $ nest g module auth
 $ nest g module user
-$ nest g module todo
 $ nest g module prisma
 $ nest g controller auth --no-spec
 $ nest g controller user --no-spec
-$ nest g controller todo --no-spec
 $ nest g service auth --no-spec
 $ nest g service user --no-spec
-$ nest g service todo --no-spec
 $ nest g service prisma --no-spec
 ```
 
