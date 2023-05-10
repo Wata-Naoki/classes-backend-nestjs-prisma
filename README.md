@@ -15,21 +15,21 @@ $ yarn add -D prisma
 $ yarn add @prisma/client
 $ npx prisma init
 
-# add docker-compose.yml file
-# start db
+# docker-compose.ymlファイルを追加する
+# データベース立ち上げ
 $ docker compose up -d
-# reset db
+# データベースをリセットする
 $ docker compose rm -s -f -v
 
 # edit DATABASE_URL of .env
-# add model definition to schema file
+# モデル定義をスキーマに加える
 
-# prisma migrate and type generation
+# prisma migrateとtype generationの設定
 $ npx prisma migrate dev
 $ npx prisma studio
 $ npx prisma generate
 
-# install packages
+# パッケージのインストール
 $ yarn add @nestjs/config @nestjs/jwt @nestjs/passport 
 $ yarn add cookie-parser csurf passport passport-jwt bcrypt class-validator
 $ yarn add -D @types/express @types/cookie-parser @types/csurf @types/passport-jwt @types/bcrypt
